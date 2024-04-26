@@ -1,0 +1,26 @@
+.loading,
+.loading>* {
+	opacity: 0.50;
+	animation-iteration-count: infinite;
+	cursor: progress;
+	transition: opacity 0.5s linear;
+	animation: fade 1s linear;
+	animation-delay: 0.5s;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes fade {
+
+	0%,
+	100% {
+		opacity: 0.50;
+	}
+
+	50% {
+		opacity: 1;
+	}
+}
+.filter__item, .cursor-pointer{
+	cursor: pointer;
+}
